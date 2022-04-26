@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularApp">
+  <head>
+    <script src="dist/app.bundle.js"></script>
+    <title>AngularJS App</title>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <div>
+        <hello-world name="Joris"></hello-world>
+      </div>
+      <div ng-controller="todoController">
+        <todo-list data="data"></todo-list>
+      </div>
+    </div>
+  </body>
+</html>
